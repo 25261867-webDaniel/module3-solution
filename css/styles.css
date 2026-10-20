@@ -5,10 +5,14 @@
 
 .navbar-nav.visible-xs > li > a {
   color: #222;
+  text-align: center;
+  border-bottom: 1px solid #222;
 }
 
-/* Really tall section that forces the page to scroll */
-.tall-section {
-  height: 1000px;
-  background-color: #e6a97a;
+/* Menu sections */
+.menu-section {
+  background-color: #999;
+  min-height: 700px;
+  padding: 10px 15px;
+  margin-bottom: 30px;
 }
