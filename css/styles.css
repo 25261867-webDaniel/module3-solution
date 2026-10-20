@@ -1,0 +1,14 @@
+/* Mobile dropdown menu: distinct background, spans the full window width */
+.navbar-collapse {
+  background-color: #cfe8cf;
+}
+
+.navbar-nav.visible-xs > li > a {
+  color: #222;
+}
+
+/* Really tall section that forces the page to scroll */
+.tall-section {
+  height: 1000px;
+  background-color: #e6a97a;
+}
