@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food, LLC - Our Menu</title>
+
+  <!-- Bootstrap 3.3.7 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Our own styles (no inline styles!) -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar: NOT fixed, so it scrolls away with the page -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Menu button (3 bars); Bootstrap shows it only on xs screens -->
+        <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse" data-target="#navbar-menu"
+                aria-expanded="false" aria-controls="navbar-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+
+      <!-- Dropdown menu: only for mobile (visible-xs) -->
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#">Chicken</a></li>
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 class="text-center">Our Menu</h1>
+
+    <div class="row">
+      <!-- One really tall section, full width on all screen sizes -->
+      <div class="col-xs-12 tall-section">
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery and Bootstrap JS (needed for the menu button) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
